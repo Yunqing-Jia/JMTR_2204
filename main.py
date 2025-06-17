@@ -48,8 +48,6 @@ def xml2csv():
     # print(root.attrib)
     #print(customers)
 
-        # name 元素
-
     i=0;#d1=[];d2=[];d3=[];d4=[];d5=[]
     with open('test1.csv', 'w', newline='') as file:
         writer = csv.writer(file)
